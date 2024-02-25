@@ -159,7 +159,7 @@ body{
 .conted{
   width: 100%;
   height: 50vh;
-  background: linear-gradient(to bottom, #34cfd4 60%,#66ffff 70%, #80ffff 80%, #99ffff 100%);
+  background: linear-gradient(to bottom, #34cfd4 80%, #80ffff 90%, #99ffff 100%);
   align-items: center;
   justify-content: center;
 

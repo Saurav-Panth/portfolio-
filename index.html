@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <link rel="stylesheet" href="try.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div id="halfbg" style="background-color: transparent;">
+        <div class="top-left" style="top:2px; color: burlywood;"><b>PORTFOLIO</b></div>
+    </div>
+        <div class="butall">
+            <button type="button" class="button" onclick="window.open('SAURAV.pdf','_blank')"><span><b>RESUME</b></span></button>
+            <button type="button" class="button"  onclick= "window.open('https://www.linkedin.com/in/saurav-panth-035a6b2b0/','_blank')">
+                <span>
+                    <b>LINKEDIN</b>
+                </span>
+            </button>
+            <button type="button" class="button" onclick="window.open('cert.html','_blank')"><span><b>CERT</b></span></button>
+        </div>
+    <div class="container">
+        <div class="logos">
+            <img src="profile1.jpg" alt="avatar">
+            <img src="profile2.jpg" alt="avatar">
+            <img src="profile3.jpg" alt="avatar">
+            <img src="profile4.jpg" alt="avatar">
+        </div>
+    </div>
+
+    <div class="conted">
+        <button type="submit" class="but" onclick="openPopup()"><span><b>CONTACT</b></span></button>
+        <div class="popup" id="popup">
+            <img src="Slide1.JPG">
+            <button type="button" onclick="closePopup()" ><b>OK</b></button>
+        </div>
+    </div>
+
+
+    <center>
+    <div class="videocontent">
+        <div class="video">
+            <video width="400" height="349" loop muted autoplay="autoplay">
+                <source src="aboutme.mp4" type="video/mp4">
+                <source src="aboutme.webm" type="video/webm">
+                <source src="aboutme - Copy.ogg" type="video/ogg">
+              </video>
+        </div>
+    </div>
+</center>
+
+<script>
+let popup = document.getElementById("popup");
+
+function openPopup(){
+    popup.classList.add("open-popup");
+}
+
+function closePopup(){
+    popup.classList.remove("open-popup");
+}
+
+</script>
+</div>
+</body>
+</html>
